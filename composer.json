@@ -1,0 +1,22 @@
+{
+    "name": "solwin/bestdeals",
+    "description": "Magento 2 Best Deals – Special products extension allows you to display special products with eye catching countdowns.",
+    "type": "magento2-module",
+    "version": "2.0.8",
+    "authors": [
+        {
+            "name": "Solwin",
+            "email": "stdabhoya@yahoo.com",
+            "homepage": "https://www.solwininfotech.com/",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Solwin\\BestDeals\\": ""
+        }
+    }
+}
